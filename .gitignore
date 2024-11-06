@@ -1,0 +1,27 @@
+# Ignore data files and folders
+data/
+*.csv
+*.xlsx
+*.json
+*.zip
+*.h5
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment folders
+env/
+.venv/
+
+# Ignore large files generated during analysis
+*.pkl
+*.tar
+*.gz
+
+# Ignore IDE specific files
+*.idea/
+*.vscode/
